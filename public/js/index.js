@@ -22,7 +22,7 @@ fetch("https://cnbc.p.rapidapi.com/news/v2/list-trending?tag=Articles&count=30",
 		gridContainer.innerHTML += `
 		<div class="grid-box">
                 <div class="img">
-				    <a href="${newsDataUrl}">
+				    <a href="${newsDataUrl}"" target = "_blank">
                     <img src="${img}">
 					</a>
                 </div>
