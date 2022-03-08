@@ -269,7 +269,7 @@ header {
         justify-content: center;
     }
     .grid-box {
-        width: 150px;
+        
         place-self: center;
         
     }
@@ -284,4 +284,12 @@ header {
     }
     
 
+}
+
+@media screen and (max-width:400px) {
+    .grid-box {
+        width: 150px;
+       
+        
+    }
 }
