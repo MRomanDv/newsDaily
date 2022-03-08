@@ -48,6 +48,15 @@ nav ul li:hover {
     transform: scale(1.2); 
 }
 
+.login {
+    color: rgb(236, 223, 223);
+    pointer-events: none;
+}
+.logout {
+    color: rgb(185, 67, 67);
+    text-decoration: none;
+}
+
 /*LOGO*/
 .logo {
     position: absolute;
