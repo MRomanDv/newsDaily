@@ -173,6 +173,9 @@ header {
     font-family: 'Jura', sans-serif;
     color: rgb(236, 223, 223);
     font-weight: 800;
+    border-bottom:3px solid rgb(185, 72, 72);
+    padding:5px 10px;
+    border-radius: 20px;
 }
 
 /*MENU-BTN*/
@@ -260,7 +263,7 @@ header {
 
 }
 
-@media screen and (max-width:350px) {
+@media screen and (max-width:400px) {
     .background {
         display: flex;
         justify-content: center;
