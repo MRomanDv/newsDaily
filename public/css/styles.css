@@ -9,6 +9,8 @@
 .background {
     position: relative;
     width: 100vw;
+    height: -webkit-max-content;
+    height: -moz-max-content;
     height: max-content;
     background: rgb(243, 240, 240);
     display: flex;
@@ -78,6 +80,8 @@ nav ul li:hover {
 
 .grid-container {
     width: 90%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
     height: max-content;
     /*border: 1px solid #000;*/
     margin: 0 auto;
@@ -100,6 +104,8 @@ nav ul li:hover {
 .img {
     width: 100%;
     position: relative;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -110,8 +116,10 @@ nav ul li:hover {
 
 img {
     border-radius: 10px;
-    object-fit: contain;
-    object-position: center;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: center;
+       object-position: center;
     width: 100%;
     transition: 1s ease;
 }
@@ -240,6 +248,8 @@ header {
 @media screen and (max-width:500px) {
     .grid-box {
         width: 250px;
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
         height: fit-content;
     }
     .grid-container {

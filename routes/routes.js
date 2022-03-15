@@ -12,4 +12,8 @@ routes.get('/login',(req,res)=>{
 routes.get('/signup',(req,res)=>{
     res.render('signup')
 })
+
+routes.get('/weather',(req,res)=>{
+    res.render('weather')
+})
 module.exports = routes
